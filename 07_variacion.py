@@ -21,7 +21,7 @@ def calcular_variaciones(n, k):
     return variaciones
     
 
-n1 = 6
-k1 = 4
+n1 = int(input("Ingresar el numero total de elementos: "))
+k1 = int(input("Ingresar el numero de elementos que se van a seleccionar y ordenar: "))
 resultado1 = calcular_variaciones(n1, k1)
 print(f"V({n1}, {k1}) = {resultado1}")
