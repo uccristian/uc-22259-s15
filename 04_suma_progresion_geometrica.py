@@ -10,7 +10,7 @@ r = int(input("Ingresar la razon: "))
 n = int(input("Ingresar el numero de terminos a sumar: "))
 
 resultado_suma = suma_progresion_geometrica(a, r, n)
-print(resultado_suma)
+print(f"Resultado: {resultado_suma}")
 
 
 
