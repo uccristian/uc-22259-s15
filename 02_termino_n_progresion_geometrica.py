@@ -13,6 +13,6 @@ def Procesar():
 
     termino = CalcularTermino(a1, r, n)
 
-    print(f"\nEl término {n} es: {termino:.4f}")
+    print(f"\nEl término {n} es: {termino}")
 
 Procesar()

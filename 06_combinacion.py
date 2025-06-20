@@ -13,14 +13,22 @@ def factorialk(k):
 def Ejecutor():
     while True:
         n = int(input("Ingrese el valor de n (mayor o igual que 0): "))
-        k = int(input("Ingrese el valor de k (mayor o igual que 0): "))
-
-        if n < 0 or k < 0:
-            print("ERROR. Vuelva a ingresar")
-        elif k > n:
-            print("ERROR: k no puede ser mayor que n. Intente de nuevo.")
+        if n < 0:
+            print("ERROR. Vuelva a ingresar n")
         else:
             break
+
+    while True:
+        k = int(input(f"Ingrese el valor de k (mayor que 0 pero menor a n): "))
+
+        if k > n:
+            print("ERROR. Vuelva a ingresar")
+        else:
+            break
+    
+    if k > n:
+        raise TypeError("ERROR: k no puede ser mayor que n. Intente de nuevo.")
+
 
     fn = factorialn(n)
     fk = factorialk(k)
