@@ -7,3 +7,5 @@
 - Macha Serva Cristian
 - Vera Vargas Galeno
 - Salinas Garcia
+
+[presentacion](https://www.canva.com/design/DAGqdvmhUtU/e9UqpMVarEkW5QrKM9FhEA/edit)
